@@ -21,7 +21,7 @@ python fire_smoke_demo.py
 
 will get the classification results as follows:
 
-![avatar](./results/result_7e9ee24563cc31d34de2020e1acaecc5.jpeg)
+![avatar](https://github.com/midasklr/FireSmokeDetectionByEfficientNet/blob/master/results/result_7e9ee24563cc31d34de2020e1acaecc5.jpeg)
 
 or try the detection demo:
 
@@ -31,15 +31,15 @@ python fire_smoke_detection.py
 
 will get results:
 
-![avatar](./results/det_results000127.jpg)
+![avatar](https://github.com/midasklr/FireSmokeDetectionByEfficientNet/blob/master/results/det_results000127.jpg)
 
 ## 4、 Visual the CNN 
 
 I visual the activation of some of  the feature map as follows:
 
-![avatar](./featmap/5rd_depthwise_conv_featmap5_7e9ee24563cc31d34de2020e1acaecc5.jpeg)
+![avatar](https://github.com/midasklr/FireSmokeDetectionByEfficientNet/blob/master/featmap/5rd_depthwise_conv_featmap5_7e9ee24563cc31d34de2020e1acaecc5.jpeg)
 
-![avatar](./featmap/5rd_depthwise_conv_featmap4_7e9ee24563cc31d34de2020e1acaecc5.jpeg)
+![avatar](https://github.com/midasklr/FireSmokeDetectionByEfficientNet/blob/master/featmap/5rd_depthwise_conv_featmap4_7e9ee24563cc31d34de2020e1acaecc5.jpeg)
 
 As we can see, the cnn can automatically learn the edge or shape or ROI of the predict targets, 
 
@@ -63,4 +63,4 @@ In my task:
 python train.py --data ./cropdata --arch efficientnet-b0 --num_cls 3 
 ```
 
-![avatar](./results/acc_loss.png)
+![avatar](https://github.com/midasklr/FireSmokeDetectionByEfficientNet/blob/master/results/acc_loss.png)

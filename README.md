@@ -9,7 +9,7 @@ Fire and smoke classification and detection by training an efficientnet classifi
 
 Python 3.7、PyTorch1.3...
 
-### 3、Running demos 
+### 3. Running demos 
 
 Download the pretrained model and simkai.ttf font from [BaiduNetDisk:](https://pan.baidu.com/s/14CM-U6bmVjXG6gNQ2CC8fw) code: awnf
 
@@ -33,7 +33,7 @@ will get results:
 
 ![avatar](./results/det_results000127.jpg)
 
-## 4、 Visual the CNN 
+## 4. Visual the CNN 
 
 I visual the activation of some of  the feature map as follows:
 
@@ -45,7 +45,7 @@ As we can see, the cnn can automatically learn the edge or shape or ROI of the p
 
 some of the filters can recognize the fire, some can deal with other features.
 
-## 5、Train Custom Dataset
+## 5. Train Custom Dataset
 
 here offer a scrip to train ur own classification model using EfficientNet:
 

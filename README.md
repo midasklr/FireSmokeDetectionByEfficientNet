@@ -64,3 +64,6 @@ python train.py --data ./cropdata --arch efficientnet-b0 --num_cls 3
 ```
 
 ![avatar](./results/acc_loss.png)
+
+## Dataset
+https://pan.baidu.com/s/1eRXtYVrn6baJ6PRMOTjyzQ code: srav
